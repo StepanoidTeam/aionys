@@ -1,0 +1,46 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .container{
+    display: flex;
+}
+
+.services article{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0D2731;
+}
+.services article h2{
+    font-size: 16px;
+}
+.services article p{
+    font-size: 13px;
+    color: rgba(13,39,49,0.65);
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+[class^=service-logo]{
+    width:110px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.service-logo-1{
+    background-image: url("../images/services/ic-services-web-dev.png");
+}
+.service-logo-2{
+    background-image: url("../images/services/ic-services-mob-dev.png");
+}
+.service-logo-3{
+    background-image: url("../images/services/ic-services-qa.png");
+}
+.service-logo-4{
+    background-image: url("../images/services/ic-services-seo.png");
+}
