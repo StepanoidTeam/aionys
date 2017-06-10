@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+
+li{
+    list-style:none;
+
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.preview{
+    background-image: url('images/img-video.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    color: #fff;
+}
+
