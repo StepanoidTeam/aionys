@@ -17,7 +17,7 @@ section{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top center;
-    color: #fff;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,6 @@ section{
     text-decoration: none;
     text-transform: uppercase;
     color:white;
-
 }
 
 .title>span{
