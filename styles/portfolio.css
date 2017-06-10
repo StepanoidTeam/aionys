@@ -4,10 +4,7 @@
     background-size: cover;
     background-position: top center;
 }
-.portfolio>span{
-    font-size: 44px;
-    text-transform: uppercase;
-}
+
 .container{
     display: flex;
     flex-wrap:wrap;
@@ -17,6 +14,8 @@
     text-align: center;
 }
 .portfolio article{
+    box-sizing: border-box;
+    padding: 0 55px;
     border: 1px solid #D8D8D8;
     flex:0 0 360px;
     height: 220px;
@@ -25,41 +24,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.portfolio article {
-    width: 360px;
     font-size: 13px;
     color: #0D2731;
     line-height: 21px;
 }
+
 .portfolio article a{
     color: #0D2731;
+    margin-bottom: 15px;
 }
 
 [class^=work-logo]{
-    width: 261px;
+    width: 250px;
     height: 90px;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center center;
 
 }
 
 .work-logo-1{
-    background-image: url("../images/portfolio/img-our-works-1.png");
+    background-image: url("../images/portfolio/img-our-works-2.png");
 }
 .work-logo-2{
     background-image: url("../images/portfolio/img-our-works-1.png");
 }
 .work-logo-3{
-    background-image: url("../images/portfolio/img-our-works-1.png");
+    background-image: url("../images/portfolio/img-our-works-2.png");
 }
 .work-logo-4{
-    background-image: url("../images/portfolio/img-our-works-1.png");
+    background-image: url("../images/portfolio/img-our-works-4.png");
 }
 .work-logo-5{
-    background-image: url("../images/portfolio/img-our-works-1.png");
+    background-image: url("../images/portfolio/img-our-works-3.png");
 }
 .work-logo-6{
-    background-image: url("../images/portfolio/img-our-works-1.png");
+    background-image: url("../images/portfolio/img-our-works-4.png");
 }
+
+
 
