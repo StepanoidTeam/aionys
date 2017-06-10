@@ -29,21 +29,13 @@ section{
     background: url("../images/logo.png") no-repeat 0 0;
 }
 
-.preview li{
-    display: inline-block;
-}
-
 .preview  a {
     text-decoration: none;
     text-transform: uppercase;
     color:white;
 
 }
-header{
-    position: absolute;
-    top:10px;
 
-}
 .title>span{
     font-size:65px;
     text-align: center;
