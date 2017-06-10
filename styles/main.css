@@ -23,6 +23,12 @@ section{
     justify-content: center;
 }
 
+.logo{
+    width:141px;
+    height:55px;
+    background: url("../images/logo.png") no-repeat 0 0;
+}
+
 .preview li{
     display: inline-block;
 }
