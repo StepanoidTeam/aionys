@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 20px 80px;
+
+    font-size: 13px;
+}
+
+footer .logo{
+    width: 141px;
+    height: 55px;
+    background: red;
+}
+
+footer .bottom-nav{
+    display: flex;
+
+}
