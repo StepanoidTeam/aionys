@@ -11,3 +11,7 @@ ul{
 li{
     list-style:none;
 }
+button{
+    border-style: none;
+    display:block;
+}
