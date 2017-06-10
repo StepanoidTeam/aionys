@@ -1,0 +1,65 @@
+.portfolio{
+    background-image: url("../images/portfolio/portfolio-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.portfolio>span{
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.portfolio{
+    text-align: center;
+}
+.portfolio article{
+    border: 1px solid #D8D8D8;
+    flex:0 0 360px;
+    height: 220px;
+    margin: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio article {
+    width: 360px;
+    font-size: 13px;
+    color: #0D2731;
+    line-height: 21px;
+}
+.portfolio article a{
+    color: #0D2731;
+}
+
+[class^=work-logo]{
+    width: 261px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+}
+
+.work-logo-1{
+    background-image: url("../images/portfolio/img-our-works-1.png");
+}
+.work-logo-2{
+    background-image: url("../images/portfolio/img-our-works-1.png");
+}
+.work-logo-3{
+    background-image: url("../images/portfolio/img-our-works-1.png");
+}
+.work-logo-4{
+    background-image: url("../images/portfolio/img-our-works-1.png");
+}
+.work-logo-5{
+    background-image: url("../images/portfolio/img-our-works-1.png");
+}
+.work-logo-6{
+    background-image: url("../images/portfolio/img-our-works-1.png");
+}
+
