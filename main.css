@@ -1,4 +1,7 @@
+
+
 body{
+    font-family: Helvetica;
     margin:0;
     padding:0;
 }
@@ -9,7 +12,6 @@ ul{
 
 li{
     list-style:none;
-
 }
 
 section{
@@ -22,5 +24,15 @@ section{
     background-size:cover;
     background-position: top center;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.preview li{
+    display: inline-block;
+}
+.preview  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
