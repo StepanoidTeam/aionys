@@ -1,34 +1,45 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-ul{
-    padding:0;
-    margin:0;
-}
-
-li{
-    list-style:none;
-}
-button{
-    cursor: pointer;
-    border-style: none;
-    display:block;
-}
-a{
-    text-decoration: none;
-}
-h1{
+ul {
     padding: 0;
     margin: 0;
 }
-h2{
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border-style: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
     padding: 0;
     margin: 0;
     font-weight: normal;
 }
-p{
+
+p {
     margin: 0;
     padding: 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
 }
