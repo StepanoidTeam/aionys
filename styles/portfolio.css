@@ -32,6 +32,13 @@
     margin-bottom: 15px;
 }
 
+.portfolio article a:hover{
+    color: #1DC8D6;
+    text-decoration: underline;
+}
+
+
+
 [class^=work-logo]{
     width: 250px;
     height: 90px;
