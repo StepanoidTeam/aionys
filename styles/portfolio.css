@@ -3,12 +3,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .portfolio .container{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    max-width: 1200px;
 }
 
 .portfolio article{
