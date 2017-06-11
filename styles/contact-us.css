@@ -1,0 +1,17 @@
+@import "header.css";
+@import "normalize.css";
+@import "footer.css";
+@import "main.css";
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-us header{
+    background-image: url('../images/img-video.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+}
