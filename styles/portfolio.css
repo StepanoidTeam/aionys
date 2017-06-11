@@ -1,3 +1,11 @@
+@import "main.css";
+
+
+
+header{
+    background: #7E80F0;
+}
+
 .portfolio{
     background-image: url("../images/portfolio/portfolio-bg.png");
     background-repeat: no-repeat;
