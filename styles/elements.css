@@ -57,3 +57,7 @@ section > h1:after {
   background: #D8D8D8;
 }
 
+.horizontal-separator{
+  border-bottom: 1px solid #979797;
+  opacity: 0.21;
+}
