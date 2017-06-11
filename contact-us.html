@@ -1,91 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="styles/contact-us.css">
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="styles/contact-us.css">
 </head>
 <body>
 
 <section class="contact-us">
 
-    <header>
-        <a href="index.html">
-            <img class="logo" srcset="images/logo.png 1x,images/logo2x.png 2x">
-        </a>
+	<header>
+		<a href="index.html">
+			<img class="logo" srcset="images/logo.png 1x,images/logo2x.png 2x">
+		</a>
 
-        <nav>
-            <ul>
-                <li><a href="index.html"><span>Home</span></a></li>
-                <li><a href="portfolio.html"><span>Portfolio</span></a></li>
-                <li><a href="services.html"><span>Services</span></a></li>
-                <li><a href="expertise.html"><span>Expertise</span></a></li>
-                <li><a href="about-us.html"><span>About Us</span></a></li>
-                <li><a class="active" href="contact-us.html"><span>Contact Us</span></a></li>
-            </ul>
-            <div class="vertical-separator"></div>
-            <a class="send-mail" href="mailto:support@aionys.com">
-                Send Us A Letter
-            </a>
-        </nav>
-    </header>
+		<nav>
+			<ul>
+				<li><a href="index.html"><span>Home</span></a></li>
+				<li><a href="portfolio.html"><span>Portfolio</span></a></li>
+				<li><a href="services.html"><span>Services</span></a></li>
+				<li><a href="expertise.html"><span>Expertise</span></a></li>
+				<li><a href="about-us.html"><span>About Us</span></a></li>
+				<li><a class="active" href="contact-us.html"><span>Contact Us</span></a></li>
+			</ul>
+			<div class="vertical-separator"></div>
+			<a class="send-mail" href="mailto:support@aionys.com">
+				Send Us A Letter
+			</a>
+		</nav>
+	</header>
 
-    <h1>Contact Us</h1>
+	<h1>Contact Us</h1>
 
-    <form action="">
+	<form class="contact" action="">
 
-        <fieldset>
-        <label>
-            <span>Name</span>
-            <input type="text">
-        </label>
+		<div class="fieldset">
+			<label>
+				<span>Name</span>
+				<input name="name" type="text">
+			</label>
 
-        <label>
-            <span>Phone</span>
-            <input type="text">
-        </label>
-        </fieldset>
+			<label>
+				<span>Phone</span>
+				<input name="phone" type="text">
+			</label>
+		</div>
 
-        <fieldset>
-        <label>
-            <span>Email</span>
-            <input type="text">
-        </label>
-        </fieldset>
-
-
-        <fieldset>
-        <label>
-            <span>Message</span>
-            <textarea name="message" cols="30" rows="10"></textarea>
-        </label>
-        </fieldset>
-
-    </form>
+		<div class="fieldset">
+			<label>
+				<span>Email</span>
+				<input name="email" type="text">
+			</label>
+		</div>
 
 
-    <footer>
-        <nav>
-            <div class="logo-container">
-                <a href="index.html">
-                    <img class="logo" srcset="images/logo-footer.png 1x,images/logo-footer(2x).png 2x">
-                </a>
-                <span> - Medical Software Development</span>
-            </div>
+		<div class="fieldset">
+			<label>
+				<span>Message</span>
+				<textarea name="message" cols="30" rows="10"></textarea>
+			</label>
+		</div>
 
-            <ul>
-                <li><a href="index.html"><span>Home</span></a></li>
-                <li><a href="portfolio.html"><span>Portfolio</span></a></li>
-                <li><a href="services.html"><span>Services</span></a></li>
-                <li><a href="expertise.html"><span>Expertise</span></a></li>
-                <li><a href="about-us.html"><span>About Us</span></a></li>
-                <li><a class="active" href="contact-us.html"><span>Contact Us</span></a></li>
-            </ul>
-        </nav>
-        <div class="copyright">
-            ©2017 Aionys. All rights reserved.
-        </div>
-    </footer>
+		<button class="btn btn-primary" type="submit">Send Message</button>
+
+		<div class="horizontal-separator"></div>
+
+		<div class="location">
+
+			<span class="location-address">
+				<span class="location-icon"></span>
+				Location: 1, Ac. Proskura Str. 61070, Kharkiv, Ukraine
+			</span>
+		</div>
+
+		<iframe class="location-map"
+				  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.15535539451!2d36.28137981503504!3d50.04592097942158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a6e2cc3b92b7%3A0x55470e80c42d001c!2z0LLRg9C70LjRhtGPINCQ0LrQsNC00LXQvNGW0LrQsCDQn9GA0L7RgdC60YPRgNC4LCAxLCDQpdCw0YDQutGW0LIsINCl0LDRgNC60ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1497199784298"
+				  frameborder="0"
+				  allowfullscreen>
+		</iframe>
+
+
+	</form>
+
+
+	<footer>
+		<nav>
+			<div class="logo-container">
+				<a href="index.html">
+					<img class="logo" srcset="images/logo-footer.png 1x,images/logo-footer(2x).png 2x">
+				</a>
+				<span> - Medical Software Development</span>
+			</div>
+
+			<ul>
+				<li><a href="index.html"><span>Home</span></a></li>
+				<li><a href="portfolio.html"><span>Portfolio</span></a></li>
+				<li><a href="services.html"><span>Services</span></a></li>
+				<li><a href="expertise.html"><span>Expertise</span></a></li>
+				<li><a href="about-us.html"><span>About Us</span></a></li>
+				<li><a class="active" href="contact-us.html"><span>Contact Us</span></a></li>
+			</ul>
+		</nav>
+		<div class="copyright">
+			©2017 Aionys. All rights reserved.
+		</div>
+	</footer>
 
 </section>
 </body>
