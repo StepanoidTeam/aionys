@@ -1,6 +1,8 @@
 @import "normalize.css";
-@import "header.css";
+@import "elements.css";
 
+@import "header.css";
+@import "footer.css";
 
 @import "preview.css";
 @import "portfolio.css";
@@ -8,7 +10,6 @@
 @import "expertise.css";
 @import "about-us.css";
 
-@import "footer.css";
 
 
 body{
