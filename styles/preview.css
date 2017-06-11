@@ -1,0 +1,21 @@
+.preview{
+    background-image: url('../images/img-video.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+.title>span{
+    font-size:65px;
+    text-align: center;
+}
