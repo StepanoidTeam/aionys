@@ -29,7 +29,7 @@
 .technologies{
     background: #2A4956;
     width: 100%;
-
+    padding: 10px 0;
 }
 
 .technologies h2{
@@ -46,9 +46,13 @@
 }
 
 [class^=tech-logo]{
+    padding: 20px 11px;
     width:240px;
     height: 40px;
     background: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px;
 }
 .tech-logo-1{
     background-image: url('../images/technologies/img-logos-languages.png');
