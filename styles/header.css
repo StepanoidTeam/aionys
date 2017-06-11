@@ -2,13 +2,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
 
-    top: 0;
-    left: 0;
-    right: 0;
-
-    margin: 20px 80px;
+    padding: 20px 80px;
 
     font-size: 13px;
 }
@@ -33,6 +28,10 @@ header nav ul {
 
 header nav a{
     padding: 5px 15px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
 }
 
 
