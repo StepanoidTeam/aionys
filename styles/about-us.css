@@ -1,9 +1,44 @@
 @import "main.css";
 
-.about-us{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.about-us .container{
+  max-width: 800px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
-    background-color: rgba(250, 211, 228, 0.47);
+.about-us p{
+  font-size: 13px;
+  color: #0D2731;
+  max-width: 550px;
+  margin: 20px;
+  text-align: center;
+}
+
+.about-wrap{
+  display: flex;
+  justify-content: space-between;
+  width:740px;
+}
+
+.about-wrap>p {
+  max-width:360px ;
+  text-align: start;
+}
+
+.container.about-container{
+  max-width: 740px;
+  margin-bottom: auto;
+  margin-top: 0;
+}
+
+.about-container .about-wrap p{
+  margin: 20px 0;
+
+}
+
+
+.about-picture{
+  width: 740px;
+  height: 205px;
+  background: url("../images/about-us.png");
 }
