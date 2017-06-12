@@ -48,7 +48,6 @@ section .container{
 section > h1 {
   position: relative;
   font-size: 44px;
-
   text-transform: uppercase;
   padding: 50px 0 20px 0;
   margin: 0 0 60px 0;
@@ -71,3 +70,26 @@ section > h1:after {
   border-bottom: 1px solid #979797;
   opacity: 0.21;
 }
+
+.nav-dots{
+  position: fixed;
+  top:50%;
+  right:2%;
+}
+.nav-dots li a{
+  display: block;
+  width:12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #aaa;
+  margin:10px;
+  opacity: .25;
+}
+
+
+
+
+
+
+
+
