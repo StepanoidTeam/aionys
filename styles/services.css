@@ -1,13 +1,10 @@
 @import "main.css";
 
-.services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .services .container{
     display: flex;
-
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .container.separate-container{
     display: flex;
@@ -31,8 +28,6 @@
 .services article .service-content p{
   text-align: start;
 }
-
-
 
 .services article{
     margin: 30px;
