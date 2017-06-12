@@ -1,3 +1,5 @@
+@import "main.css";
+
 .services{
     display: flex;
     flex-direction: column;
@@ -5,7 +7,32 @@
 }
 .services .container{
     display: flex;
+
 }
+.container.separate-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container.separate-container article{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.21);
+}
+
+
+.service-content{
+  width: 690px;
+  box-sizing:border-box;
+  padding: 20px;
+  margin-left: 20px;
+}
+.services article .service-content p{
+  text-align: start;
+}
+
+
 
 .services article{
     margin: 30px;
@@ -36,6 +63,15 @@
 
 }
 
+
+
+.services a {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+
+
 .service-logo-1{
     background-image: url("../images/services/ic-services-web-dev.png");
 }
@@ -48,3 +84,6 @@
 .service-logo-4{
     background-image: url("../images/services/ic-services-seo.png");
 }
+
+
+
