@@ -8,6 +8,14 @@ section {
   min-height: 100vh;
 }
 
+section .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
 .btn {
   position: relative;
   overflow: hidden;
