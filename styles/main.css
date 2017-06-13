@@ -12,7 +12,7 @@
 
 @import "fonts.css";
 
-
+@import "media.css";
 body{
   overflow-x: hidden;
     /* todo: add fonts */
