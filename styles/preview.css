@@ -22,9 +22,5 @@
 .preview .title{
     margin-top: auto;
     margin-bottom:auto;
-}
-
-.title>span{
-    font-size:65px;
     text-align: center;
 }
