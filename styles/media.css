@@ -1,7 +1,13 @@
+@media only screen and (max-width: 1030px) {
+  .preview header {
+    /* decrease h-paddings */
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
-
-@media only screen and (max-width: 767px){
-  .preview header{
+@media only screen and (max-width: 767px) {
+  .preview header {
     display: none;
   }
 }
