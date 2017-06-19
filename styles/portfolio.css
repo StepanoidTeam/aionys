@@ -29,6 +29,14 @@
     line-height: 21px;
 }
 
+.portfolio article{
+  flex-direction: column;
+}
+
+.portfolio article .logo-block{
+  text-align: center;
+}
+
 .portfolio article a{
     color: #0D2731;
     margin-bottom: 15px;
