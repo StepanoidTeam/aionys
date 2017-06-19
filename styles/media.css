@@ -1,14 +1,35 @@
 @media only screen and (max-width: 1030px) {
-  .preview header {
+  header {
     /* decrease h-paddings */
     padding-left: 30px;
     padding-right: 30px;
   }
+
+
+  footer nav{
+    /* decrease h-paddings */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 }
 
+
+
+/*todo: jat nije v procentah */
 @media only screen and (max-width: 930px) {
-  .preview header {
-    font-size: 0.5em;
+  section {
+    font-size: 0.9em;
+  }
+}
+
+
+@media only screen and (max-width: 780px) {
+  .portfolio article{
+    /*todo: get rid of importants*/
+    flex-direction: row !important;
+    flex: 0 0 90vw !important;
+    height: 160px !important;
   }
 }
 
