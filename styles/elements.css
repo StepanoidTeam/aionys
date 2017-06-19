@@ -13,7 +13,7 @@ section .container{
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: auto;
-  margin-top: auto;
+  /*margin-top: auto;*/
 }
 
 .btn {
