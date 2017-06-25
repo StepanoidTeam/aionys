@@ -8,7 +8,7 @@ section {
   min-height: 100vh;
 }
 
-section .container{
+section .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,6 +36,12 @@ section .container{
   color: #1dc8d6;
   box-shadow: inset 0 0 0 2px #1dc8d6;
 }
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 2px #1DC8D6, inset 0 0 0 4px white;
+}
+
 
 .btn-gradient {
   background-color: transparent;
@@ -71,24 +77,25 @@ section > h1:after {
   opacity: 0.21;
 }
 
-.nav-dots{
+.nav-dots {
   position: fixed;
-  top:50%;
-  right:2%;
+  top: 50%;
+  right: 2%;
 }
-.nav-dots li a{
+
+.nav-dots li a {
   display: block;
-  width:12px;
+  width: 12px;
   height: 12px;
   border-radius: 50%;
   background: #aaa;
   padding: 5px;
-  margin:10px;
+  margin: 10px;
   opacity: .25;
   transition: all 300ms ease;
 }
 
-.nav-dots li a.selected{
+.nav-dots li a.selected {
   opacity: 0.7;
 }
 
