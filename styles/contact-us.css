@@ -12,7 +12,7 @@ form.contact {
   flex-direction: column;
   align-items: stretch;
 
-  width: 555px;
+  max-width: 555px;
 }
 
 .fieldset {
