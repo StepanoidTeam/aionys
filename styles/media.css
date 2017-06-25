@@ -15,7 +15,7 @@
 
 /*todo: jat nije v procentah */
 @media only screen and (max-width: 930px) {
-  
+
 }
 
 @media only screen and (max-width: 780px) {
@@ -32,7 +32,9 @@
   }
 }
 
-#nav-menu, .nav-menu-label {
+#nav-menu,
+.nav-menu-open-label,
+.nav-menu-close-label {
   display: none;
 }
 
@@ -42,21 +44,44 @@
     display: none;
   }
 
-  .send-mail,
   .vertical-separator {
     display: none;
   }
 
-  .nav-menu-label {
+  .nav-menu-open-label,
+  .nav-menu-close-label {
     display: block;
     width: 1em;
+    height: 1em;
     font-size: 3em;
     color: white;
   }
 
-  #nav-menu:checked + nav {
+  .nav-menu-close-label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 30px;
+  }
+
+  #nav-menu ~ .nav-menu-close-label {
+    display: none;
+  }
+
+  #nav-menu:checked ~ .logo,
+  #nav-menu:checked ~ .nav-menu-open-label {
+    display: none;
+  }
+
+  #nav-menu:checked ~ .nav-menu-close-label {
+    display: block;
+  }
+
+  #nav-menu:checked ~ nav {
     display: flex;
     height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   header nav {
@@ -68,7 +93,6 @@
     flex-direction: column;
     justify-content: space-around;
     font-size: 2em;
-
 
   }
 
