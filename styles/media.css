@@ -15,22 +15,16 @@
 
 /*todo: jat nije v procentah */
 @media only screen and (max-width: 930px) {
-
-}
-
-@media only screen and (max-width: 780px) {
-  .portfolio article {
-    /*todo: get rid of importants*/
-    flex: 0 0 90vw !important;
-    height: 160px !important;
+  header{
+    font-size: 0.6em;
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .preview header {
-    display: none;
-  }
+
+@media only screen and (max-width: 800px) {
+  
 }
+
 
 #nav-menu,
 .nav-menu-open-label,
@@ -38,7 +32,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 
   header nav {
     display: none;
