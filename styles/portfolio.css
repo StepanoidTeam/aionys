@@ -44,7 +44,7 @@ section.portfolio{
 
 .portfolio article a{
     color: #0D2731;
-    margin: 15px 0;
+    line-height: 4em;
 }
 
 .portfolio article a:hover{

@@ -10,7 +10,7 @@
   font-size: 0.8em;
   color: #0D2731;
   max-width: 550px;
-  margin: 20px;
+  padding: 2em;
   text-align: center;
 }
 
@@ -40,4 +40,14 @@
   width: 740px;
   height: 205px;
   background: url("../images/about-us.png");
+}
+
+.about-us button{
+  margin-bottom: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .expertise .container{
+    justify-content: center;
+  }
 }
