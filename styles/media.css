@@ -5,8 +5,7 @@
     padding-right: 30px;
   }
 
-
-  footer nav{
+  footer nav {
     /* decrease h-paddings */
     padding-left: 20px;
     padding-right: 20px;
@@ -14,27 +13,63 @@
 
 }
 
-
-
 /*todo: jat nije v procentah */
 @media only screen and (max-width: 930px) {
   
 }
 
-
 @media only screen and (max-width: 780px) {
-  .portfolio article{
+  .portfolio article {
     /*todo: get rid of importants*/
     flex: 0 0 90vw !important;
     height: 160px !important;
   }
 }
 
-
-
-
 @media only screen and (max-width: 767px) {
   .preview header {
     display: none;
   }
+}
+
+#nav-menu, .nav-menu-label {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  header nav {
+    display: none;
+  }
+
+  .send-mail,
+  .vertical-separator {
+    display: none;
+  }
+
+  .nav-menu-label {
+    display: block;
+    width: 1em;
+    font-size: 3em;
+    color: white;
+  }
+
+  #nav-menu:checked + nav {
+    display: flex;
+    height: 100vh;
+  }
+
+  header nav {
+
+    flex-direction: column;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2em;
+
+
+  }
+
 }
