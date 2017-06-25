@@ -39,18 +39,23 @@
 
   .nav-menu-open-label,
   .nav-menu-close-label {
-    display: block;
-    width: 1em;
-    height: 1em;
-    font-size: 3em;
-    color: white;
-  }
-
-  .nav-menu-close-label {
     position: absolute;
     right: 0;
     top: 0;
-    margin: 30px;
+
+    display: block;
+    padding: 30px;
+    margin-right: 30px;
+
+    width: 1em;
+    height: 1em;
+    
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+
+
+
   }
 
   #nav-menu ~ .nav-menu-close-label {
