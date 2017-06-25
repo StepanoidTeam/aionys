@@ -1,5 +1,7 @@
 @import "main.css";
-
+section.portfolio{
+  justify-content: space-around;
+}
 
 .portfolio{
     background-image: url("../images/portfolio/portfolio-bg.png");
@@ -17,8 +19,8 @@
     box-sizing: border-box;
     padding:2vh 6vw;
     border: 1px solid #D8D8D8;
-    flex:0 0;
-    margin: 3vh 3vw;
+    flex:1 1;
+    margin: 1.5vh 1.5vw;
     background: white;
     display: flex;
     flex-direction: column;
@@ -26,6 +28,10 @@
     font-size: 0.8em;
     color: #0D2731;
 
+}
+
+.portfolio span{
+  text-align: center;
 }
 
 .portfolio article{
@@ -38,7 +44,7 @@
 
 .portfolio article a{
     color: #0D2731;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .portfolio article a:hover{
