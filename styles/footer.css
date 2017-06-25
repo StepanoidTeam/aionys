@@ -21,7 +21,11 @@ footer .logo-container span {
   white-space: pre-wrap;
 }
 
-footer .logo {
+footer .logo-container a{
+  width: 98px;
+  height: 38px;
+  background: url("../images/logo-footer(2x).png") center no-repeat;
+  background-size: 98px 38px;
 }
 
 footer nav {

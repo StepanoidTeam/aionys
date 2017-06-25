@@ -96,4 +96,12 @@
 
   }
 
+  footer nav{
+    justify-content: space-around;
+  }
+
+  footer nav ul{
+    display: none;
+  }
+
 }
