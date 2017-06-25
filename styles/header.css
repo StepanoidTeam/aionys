@@ -4,6 +4,7 @@ header {
   align-items: center;
   justify-content: space-between;
 
+  overflow: hidden;
   padding: 20px 80px;
 }
 
