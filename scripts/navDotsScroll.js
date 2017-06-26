@@ -1,17 +1,22 @@
 jQuery(document).ready(function () {
 
+	const scrollTime = 600;
 	let $currentSection = jQuery('section:first');
 
-	$(document).on('mousewheel', function (event) {
+	function wheelScroll(event) {
 		$currentSection = jQuery(event.target).closest('section');
 
 		const isScrolledDown = event.originalEvent.deltaY > 0;
 		const nextSection = isScrolledDown ? $currentSection.next() : $currentSection.prev();
 		const nextSectionId = nextSection.attr('id');
 		if (nextSectionId) {
-			scrollToHash('#' + nextSectionId);
+			scrollToHashDebounced('#' + nextSectionId);
 		}
-	});
+
+		event.preventDefault();
+	}
+
+	$(document).on('wheel', wheelScroll);
 
 
 	const $navDots = jQuery('<ul>', {'class': 'nav-dots'});
@@ -31,9 +36,16 @@ jQuery(document).ready(function () {
 	//first load
 	scrollToHash(location.hash || '#' + $currentSection.attr('id'));
 
+
+	//todo: debounce/throtte added due to laptop touch issue
+	const scrollToHashDebounced = _.throttle(scrollToHash, scrollTime * 2, {
+		'leading': true,
+		'trailing': false
+	});
+
 	function scrollToHash(elementHashId) {
 		jQuery(window).stop();
-		jQuery.scrollTo(elementHashId, 'slow');
+		jQuery.scrollTo(elementHashId, scrollTime);
 		history.pushState(null, null, elementHashId);
 
 		$navDots.find('a').removeClass('selected');
