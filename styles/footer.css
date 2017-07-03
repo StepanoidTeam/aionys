@@ -19,10 +19,11 @@ footer .logo-container {
 footer .logo-container span {
   font-size: 12px;
   white-space: pre-wrap;
+  text-align: center;
 }
 
 footer .logo-container a{
-  width: 98px;
+  width: 107px;
   height: 38px;
   background: url("../images/logo-footer(2x).png") center no-repeat;
   background-size: 98px 38px;
