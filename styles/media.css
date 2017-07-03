@@ -45,16 +45,16 @@
 
     display: block;
     padding: 30px;
-    margin-right: 30px;
+
 
     width: 1em;
     height: 1em;
-    
+
     font-size: 3em;
     color: white;
     cursor: pointer;
 
-
+    z-index: 1;
 
   }
 
