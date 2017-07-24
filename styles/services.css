@@ -59,6 +59,7 @@
   letter-spacing: 0;
   line-height: 21px;
   text-align: center;
+  white-space: pre-wrap;
 }
 
 [class^=service-logo] {
