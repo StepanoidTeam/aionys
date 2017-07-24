@@ -53,6 +53,11 @@
   font-size: 16px;
 }
 
+.services article h4{
+  color:rgba(13, 39, 49, 0.65);
+  font-size: 0.8em;
+  margin:10px 0 5px 0;
+}
 .services article p {
   font-size: 0.8em;
   color: rgba(13, 39, 49, 0.65);
@@ -76,7 +81,8 @@
 }
 
 .services img {
-  margin: 0 30px;
+  margin: 25px 30px 0 30px;
+  align-self: baseline;
 }
 
 @media only screen and (max-width: 700px) {
